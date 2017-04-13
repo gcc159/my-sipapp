@@ -1,0 +1,16 @@
+<component name="ArtifactManager">
+  <artifact type="exploded-war" name="my-sipapp:war exploded">
+    <output-path>D:/Sip/restcomm-sip-servlets-4.0.119-apache-tomcat-8.0.26/webapps/myapp</output-path>
+    <root id="root">
+      <element id="directory" name="WEB-INF">
+        <element id="directory" name="classes">
+          <element id="module-output" name="my-sipapp" />
+        </element>
+      </element>
+      <element id="directory" name="META-INF">
+        <element id="file-copy" path="$PROJECT_DIR$/target/my-sipapp/META-INF/MANIFEST.MF" />
+      </element>
+      <element id="javaee-facet-resources" facet="my-sipapp/web/Web" />
+    </root>
+  </artifact>
+</component>
